@@ -1,0 +1,18 @@
+<div class="container w-50 text-center p-5 ">
+    <h3 class="mb-5">Edit Product</h3>
+
+    <form (ngSubmit)="editData()" id="d" action="" class="container p-5 border bg-light">
+    
+          <input [(ngModel)]="pdata.Name" name="Name"  type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Name">
+          <input [(ngModel)]="pdata.CategoryId" name="CategoryId" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="CategoryId">
+          <input [(ngModel)]="pdata.Description" name="Description" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Description">
+          <input [(ngModel)]="pdata.Price" name="Price" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Price">
+          <input [(ngModel)]="pdata.ProductImages" name="ProductImage" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="ProductImage URL">
+          <input [(ngModel)]="pdata.Rating" name="Rating" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Rating">
+          <input [(ngModel)]="pdata.Review" name="Review" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Review">
+          <input [(ngModel)]="pdata.VendorName" name="VendorName" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="VendorName">
+          <input [(ngModel)]="pdata.Warranty" name="Warranty" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Warranty">
+      
+        <button type="submit" class="btn btn-primary mt-4 p-2">EDIT</button>
+      </form>
+</div>

@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href=""><h1 style="color: #3b128d"><i class="fa-brands fa-opencart fa-fade" style="color: #3b128d"></i>  ExploreKart</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#!" style="color: #3b128d"></a><a href="productsll/add" style="text-decoration:none">Add Product</a></li>
+            </ul>
+           
+            </div>
+            <form class="d-flex">
+            
+                <input [(ngModel)]="searchTerm" (keyup)="search($event)" id="d" name="search" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+                
+                type="text" class="form-control" placeholder="Search products" name="search">
+                
+            </form>
+        </div>
+    
+</nav>
+<!-- Header-->
+<header class="py-5" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" style="background-color: #3b128d;">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <div class="row">
+                <div class="col-6">
+                    <h1 id="d" class="display-4 fw-bolder">The One-Stop Shopping Destination</h1>
+            <p id="d" class="lead fw-normal text-white-50 mb-0">Explore the wide range of products with ExploreKart </p>
+                </div>
+                <div class="col-6">
+                    
+            <img id="d" src="https://i.postimg.cc/6Qw6Jv8H/ecommerce-solution.png" style="width: 300px;height: 200px;" >
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</header>

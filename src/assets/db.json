@@ -1,0 +1,112 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "Name": "BRIDE",
+      "CategoryId": 2,
+      "Description": "Men Premium Navy Sandal For Men Navy Casual Sandal",
+      "Price": 900,
+      "ProductImages": "https://i.postimg.cc/zGfqDQgs/sandals.jpg",
+      "Rating": "3.5",
+      "Review": 50,
+      "VendorName": "ARK footwares",
+      "Warranty": 1
+    },
+    {
+      "id": "2",
+      "Name": "BRUTON",
+      "CategoryId": 2,
+      "Description": "Men Black Sandal",
+      "Price": 500,
+      "ProductImages": "https://i.postimg.cc/SKLv36Sg/bruton.jpg",
+      "Rating": "4.5",
+      "Review": 150,
+      "VendorName": "Bruton Pride",
+      "Warranty": 1
+    },
+    {
+      "id": "3",
+      "Name": "Bata",
+      "CategoryId": 2,
+      "Description": "Bata slippers for men comfortable and stylish chappal men Men Slippers",
+      "Price": 350,
+      "ProductImages": "https://i.postimg.cc/R0VvPZ9J/6137-0-Pr-Ta-S-UL1500.jpg",
+      "Rating": "5",
+      "Review": 200,
+      "VendorName": "Bata Footware",
+      "Warranty": 1
+    },
+    {
+      "id": "4",
+      "Name": "Fastrack",
+      "CategoryId": 3,
+      "Description": "Analog Watch - For Men 3240SM02",
+      "Price": 1317,
+      "ProductImages": "https://i.postimg.cc/XYxgMsM1/fastrack.jpg",
+      "Rating": "4.3",
+      "Review": 180,
+      "VendorName": "Wizrob Fashion",
+      "Warranty": 2
+    },
+    {
+      "id": "5",
+      "Name": "SONATA",
+      "CategoryId": 3,
+      "Description": "Volt Analog Watch - For Men 77085PP01",
+      "Price": 508,
+      "ProductImages": "https://i.postimg.cc/3NSKQMBJ/sonata.jpg",
+      "Rating": "4.2",
+      "Review": 230,
+      "VendorName": "Wizrob Fashion",
+      "Warranty": 2
+    },
+    {
+      "id": "6",
+      "Name": "Titan ",
+      "CategoryId": 3,
+      "Description": "Multifunction Analog Watch - For Men 90143KM01",
+      "Price": "3350",
+      "ProductImages": "https://i.postimg.cc/dVz04TnH/watch.webp",
+      "Rating": "4.8",
+      "Review": "500",
+      "VendorName": "RetailNet",
+      "Warranty": 2
+    },
+    {
+      "id": "7",
+      "Name": "Jump Cuts",
+      "CategoryId": 4,
+      "Description": "Men Typography Round Neck Cotton Blend Black, Grey T-Shirt",
+      "Price": 350,
+      "ProductImages": "https://i.postimg.cc/GtfSwr4Q/black.jpg",
+      "Rating": "4",
+      "Review": 100,
+      "VendorName": "maniaclife",
+      "Warranty": 0
+    },
+    {
+      "id": "8",
+      "Name": "Leotude",
+      "CategoryId": 4,
+      "Description": "Men Printed Round Neck Cotton Blend Blue T-Shirt",
+      "Price": 335,
+      "ProductImages": "https://i.postimg.cc/Cx7kz7Ny/blue.jpg",
+      "Rating": "3.8",
+      "Review": 189,
+      "VendorName": "RetailNet",
+      "Warranty": 0
+    },
+    {
+      "id": "9",
+      "Name": "Metronaut ",
+      "CategoryId": 4,
+      "Description": "Printed Men Round Neck Polyester Orange T-Shirt",
+      "Price": 400,
+      "ProductImages": "https://i.postimg.cc/gjD1fvGV/tshirt2.jpg",
+      "Rating": "4",
+      "Review": 507,
+      "VendorName": "RIGO",
+      "Warranty": 0
+    }
+  ]
+}

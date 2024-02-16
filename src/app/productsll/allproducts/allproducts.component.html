@@ -1,0 +1,48 @@
+
+<div class="container text-center ">
+    <div class="row mt-5" style="background-color:#3b128d ; color: antiquewhite;" >
+        <div (click)="filterCategory('')" class="col-3  p-2 border" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h5 class="mt-1" id="d">All product</h5></div>
+
+        <div (click)="filterCategory('4')" class="col-3  p-2 border" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h5 class="mt-1" id="d">Fashion</h5></div>
+
+        <div (click)="filterCategory('3')" class="col-3  p-2 border" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h5 class="mt-1" id="d">Watch</h5></div>
+
+        <div (click)="filterCategory('2')" class="col-3  p-2 border" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h5 class="mt-1" id="d">Footwear</h5></div>
+    </div>
+</div>
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+            <div *ngFor="let i of filterProducts | search: searchKey :'Description'" class="col mb-5">
+            
+                <div id="d" class="card h-100"
+                    style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    
+                    <!-- Product image-->
+                    <img style="height: 300px;" class="card-img-top" src={{i.ProductImages}} alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center" style="width:100%;">
+                            <!-- Product name-->
+                            <h5 style="color: #3b128d;" class="fw-bolder">{{i.Name}}</h5>
+                            <!-- Product price-->
+                            ₹{{i.Price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-info mt-auto" href="productsll/view/{{i.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>

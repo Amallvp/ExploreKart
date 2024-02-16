@@ -1,0 +1,22 @@
+<div class="container w-50 text-center p-5 ">
+    <h3 class="mb-5">Add New Product</h3>
+
+    <form (ngSubmit)="addProduct()" [formGroup]="addForm" id="d" action="" class="container p-5 border bg-light">
+    
+          <input formControlName="id" type="text" class="form-control mt-1 p-2" id="exampleInputEmail1" placeholder="ID">
+          <input formControlName="Name" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Name">
+          <input formControlName="CategoryId" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="CategoryId">
+          <input formControlName="Description" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Description">
+          <input formControlName="Price" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Price">
+          <input formControlName="ProductImages" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="ProductImage URL">
+          <input formControlName="Rating" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Rating">
+          <input formControlName="Review" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Review">
+          <input formControlName="VendorName" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="VendorName">
+          <input formControlName="Warranty" type="text" class="form-control mt-2 p-2" id="exampleInputEmail1" placeholder="Warranty">
+      
+        <button type="submit" class="btn btn-primary mt-4 p-2">ADD</button>
+      </form>
+</div>
+
+
+<!-- (ngSubmit) use cheyne enter click cheyyumbo thanne details submit aavan vendi aan   -->
